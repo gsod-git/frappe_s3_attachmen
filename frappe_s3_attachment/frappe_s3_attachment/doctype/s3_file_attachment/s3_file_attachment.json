@@ -1,0 +1,112 @@
+{
+ "actions": [],
+ "creation": "2018-01-23 20:37:41.850676",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "general_configuration",
+  "delete_file_from_cloud",
+  "column_break_v9al",
+  "disable_s3_file_attachment",
+  "aws_credentials",
+  "bucket_name",
+  "aws_key",
+  "aws_secret",
+  "section_break_7",
+  "region_name",
+  "folder_name",
+  "section_break_10",
+  "migrate_existing_files"
+ ],
+ "fields": [
+  {
+   "fieldname": "general_configuration",
+   "fieldtype": "Section Break",
+   "label": "General Configuration"
+  },
+  {
+   "default": "0",
+   "fieldname": "delete_file_from_cloud",
+   "fieldtype": "Check",
+   "label": "Delete file from cloud "
+  },
+  {
+   "fieldname": "aws_credentials",
+   "fieldtype": "Section Break",
+   "label": "AWS credentials"
+  },
+  {
+   "fieldname": "bucket_name",
+   "fieldtype": "Data",
+   "label": "Bucket Name"
+  },
+  {
+   "fieldname": "aws_key",
+   "fieldtype": "Data",
+   "label": "AWS Key"
+  },
+  {
+   "fieldname": "aws_secret",
+   "fieldtype": "Data",
+   "label": "AWS Secret"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "region_name",
+   "fieldtype": "Data",
+   "label": "S3 Bucket Region Name"
+  },
+  {
+   "fieldname": "folder_name",
+   "fieldtype": "Data",
+   "label": "Folder Name"
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "migrate_existing_files",
+   "fieldtype": "Button",
+   "label": "Migrate Existing Files"
+  },
+  {
+   "fieldname": "column_break_v9al",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "disable_s3_file_attachment",
+   "fieldtype": "Check",
+   "label": "Disable S3 File Attachment"
+  }
+ ],
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-07-11 08:39:02.237960",
+ "modified_by": "Administrator",
+ "module": "Frappe S3 Attachment",
+ "name": "S3 File Attachment",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
